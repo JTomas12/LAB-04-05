@@ -10,7 +10,7 @@ import java.util.List;
 public class ListSorterTest {
 
     List<Integer> list, expected;
-    @BeforeEach
+   @BeforeEach
     private void helper() {
         list = Arrays.asList(3, 2, 6, 1, 4, 5, 7);
         expected = Arrays.asList(1, 2, 3, 4, 5, 6, 7);
